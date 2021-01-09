@@ -1,0 +1,13 @@
+.container-botoes{
+  background-color: #f4f7f9;
+    border-radius: 10px;
+    padding: 15px;
+    max-width: 300px;
+    text-align: left;
+}
+.texto{
+  background-color: transparent;
+}
+.botao-escutar{
+  background-color: green;
+}
