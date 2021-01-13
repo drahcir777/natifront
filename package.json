@@ -1,16 +1,17 @@
 {
   "name": "nati-chat",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@material-ui/core": "^4.11.2",
     "@testing-library/jest-dom": "^5.11.6",
     "@testing-library/react": "^11.2.2",
     "@testing-library/user-event": "^12.6.0",
     "axios": "^0.21.1",
+    "express": "^4.17.1",
     "react": "^17.0.1",
     "react-chat-elements": "^10.13.0",
-    "react-chat-widget": "^3.0.5",
+    "react-chat-window": "^1.2.1",
     "react-dom": "^17.0.1",
     "react-icons": "^4.1.0",
     "react-native-vector-icons": "^7.1.0",
@@ -24,7 +25,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "build:widget": "parcel build src/index.js --no-source-maps -d docs"
   },
   "eslintConfig": {
     "extends": [
@@ -43,5 +45,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
   }
 }
