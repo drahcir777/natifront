@@ -1,0 +1,2 @@
+(this["webpackJsonpmy-embeddable-widget"]=this["webpackJsonpmy-embeddable-widget"]||[]).push([[0],{10:function(e,t,n){"use strict";n.r(t);var c=n(0),d=n(1),i=n.n(d),r=n(3),s=n.n(r),o=n(4),a=n.n(o);function b(e){e.domElement;return Object(c.jsx)("div",{className:"App",children:Object(c.jsx)(a.a,{})})}document.querySelectorAll(".reddit_widget").forEach((function(e){s.a.render(Object(c.jsx)(i.a.StrictMode,{children:Object(c.jsx)(b,{domElement:e})}),e)}))},4:function(e,t){}},[[10,1,2]]]);
+//# sourceMappingURL=my-widget.main.js.map

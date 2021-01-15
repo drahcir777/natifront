@@ -18,13 +18,14 @@
     "react-router-redux": "^5.0.0-alpha.9",
     "react-scripts": "4.0.1",
     "react-speech-kit": "^3.0.1",
+    "react-widgets": "^5.0.0-beta.22",
     "web-vitals": "^0.2.4",
     "yarn": "^1.22.10"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
     "eject": "react-scripts eject",
     "build:widget": "parcel build src/index.js --no-source-maps -d docs"
   },
@@ -47,6 +48,8 @@
     ]
   },
   "devDependencies": {
-    "parcel-bundler": "^1.12.4"
+    "customize-cra": "^1.0.0",
+    "parcel-bundler": "^1.12.4",
+    "react-app-rewired": "^2.1.8"
   }
 }
